@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project was bootstrapped with [Курс "React JS - путь самурая", уроки, практика](https://www.youtube.com/watch?v=Zgd9IlbhDcU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
+
+## API
+(link)(https://social-network.samuraijs.com/)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
