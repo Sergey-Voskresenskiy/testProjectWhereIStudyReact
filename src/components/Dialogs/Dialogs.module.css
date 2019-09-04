@@ -1,0 +1,136 @@
+.dialogs {
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+	border: 1px solid #f0f6ff;
+	box-shadow: 0 5px 5px 0 #f0f6ff;
+}
+
+.dialog {
+	margin: 5px 0;
+}
+
+.dialogsItems {
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+.buttons{
+	margin-top: 10px;
+}
+.button {
+	border: 1px solid #f0f6ff;
+	background: transparent;
+	padding: 10px;
+	transition: all .5s ease;
+	outline: none;
+	font-weight: bold;
+	color: lightsteelblue;
+	box-shadow: 5px 5px 0 lightsteelblue;
+	-webkit-tap-highlight-color: transparent !important;
+}
+
+.button:hover {
+	color: #fff;
+	background: lightsteelblue;
+	box-shadow: 3px 3px 0 lightsteelblue;
+}
+.button:active {
+	color: lightsteelblue;
+	background: #f0f6ff;
+	box-shadow: 1px 1px 0 lightsteelblue;
+}
+
+
+.textarea {
+	font-style: italic;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid lightsteelblue;
+	resize: none;
+	overflow: auto;
+	outline: none;
+	width: 250px;
+	height: 80px;
+	transition: all 0.2s ease;
+}
+.textarea::placeholder {
+	font-size: 12px;
+	color: lightsteelblue;
+}
+.textarea:focus{
+	color: #333;
+	background: #F5FAFF;
+	box-shadow: 0px 3px 0 lightsteelblue;
+}
+
+.link {
+	text-decoration: none;
+	color: lightsteelblue;
+	transition: color 0.2s ease;
+	margin: 10px;
+	padding: 10px;
+	outline: none;
+}
+
+.link:hover {
+	color: #333;
+}
+
+.link:focus {
+	color: #333;
+}
+
+.text{
+	padding: 5px 0;
+}
+
+.active {
+	font-weight: bold;
+	color: #333;
+}
+
+/*.dialog1{*/
+/*    padding: 5px 0;*/
+/*}*/
+.message {
+	height: 130px;
+	overflow: auto;
+}
+
+.typearea {
+	margin: 10px 0;
+}
+
+.message::-webkit-scrollbar {
+	width: 3px;
+	height: 3px;
+}
+
+.message::-webkit-scrollbar-button {
+	background-color: transparent;
+}
+
+.message::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+}
+
+.message::-webkit-scrollbar-thumb {
+	height: 10px;
+	background-color: lightsteelblue;
+	border-radius: 3px;
+}
+
+.message::-webkit-scrollbar-corner {
+	background-color: #999;
+}
+
+.message::-webkit-resizer {
+	background-color: #666;
+}
+
+
+.messages {
+	padding: 10px;
+}
+
+

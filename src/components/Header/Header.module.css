@@ -1,0 +1,13 @@
+.header {
+    grid-area: h;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #f0f6ff;
+    box-shadow: 0 5px 5px 0 #f0f6ff;
+}
+
+.header img {
+    width: 60px;
+}
+
