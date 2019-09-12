@@ -1,7 +1,7 @@
 .header {
     grid-area: h;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid #f0f6ff;
     box-shadow: 0 5px 5px 0 #f0f6ff;
@@ -11,3 +11,15 @@
     width: 60px;
 }
 
+.loginBlock{
+    padding: 0 20px;
+}
+.loginBlock a {
+    color: lightsteelblue;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+
+.loginBlock a:hover {
+    color: #333;
+}
